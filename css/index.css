@@ -3,6 +3,10 @@
 }
 a{
     text-decoration: none;
+    transition: 0.2s;
+}
+a:hover{
+    text-decoration: underline;
 }
 .navbar {
     display: flex;
@@ -54,4 +58,35 @@ a{
     background: yellow;
     transform: scale(1.5);
     
+}
+.container{
+    padding: 50px ;
+    display: flex;
+    gap: 10px;
+}
+.card-header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+   
+    
+}
+.blog-card{
+    border: 1px solid gray;
+    box-shadow: 0 10px 10px green;
+ 
+    
+}
+.blog-card:hover {
+ transform: translateY(2px);
+ box-shadow: 0 10px 10px yellowgreen;
+}
+.blog-card-group{
+    display: flex;
+    gap: 15px;
+}
+.bg-1{
+    background-image: url(" ./assets  ");
 }
