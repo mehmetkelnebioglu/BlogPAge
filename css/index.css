@@ -35,3 +35,23 @@ a{
 .person-left{
     line-height: 1.7;
 }
+.photo{
+    border-radius: 50%;
+}
+.btn-btn-group{
+    display: flex;
+    gap: 10px;
+}
+.btn{
+    background-color: rgb(16, 228, 228);
+    border-radius: 15%;
+    padding: 10px;
+    border: none;
+    transition: 0.2s;
+}
+.btn:hover{
+    cursor: pointer;
+    background: yellow;
+    transform: scale(1.5);
+    
+}
