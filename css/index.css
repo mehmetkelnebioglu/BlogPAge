@@ -1,0 +1,14 @@
+*{
+    background-color: white;
+}
+.navbar {
+    padding: 10px;
+}
+.desktop-nav{
+    display: flex;
+}
+.desktop-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px ;
+}
